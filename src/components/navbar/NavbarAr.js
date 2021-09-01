@@ -77,7 +77,7 @@ export default function NavbarAr(props) {
           <div className="container">
             <Link
               className={props.compo == true ? "d-none" : "navbar-brand"}
-              to="/yodawy/"
+              to="/yodawy"
             >
               <div className="box">
                 <img src={"/images/logo/arabic-logo-300x137.png"} />
@@ -179,7 +179,7 @@ export default function NavbarAr(props) {
           <div className="row align-items-center justify-content-around ">
             <div className="col-3 col-md-2">
               <div className="box  m-lg-4">
-                <Link to="/yodawy/">
+                <Link to="/yodawy">
                   <img src={"/images/logo/Yodawy-logo-ar.png"} />
                 </Link>
               </div>
