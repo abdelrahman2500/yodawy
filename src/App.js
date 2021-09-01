@@ -36,7 +36,7 @@ function App() {
         <div className="AppEn">
           {/* hello english */}
           <Switch>
-            <Redirect exact from="/" to="/yodawy" />
+            {/* <Redirect exact from="/" to="/yodawy" /> */}
             <Route path="/yodawy" exact>
               <Home />
             </Route>
@@ -79,7 +79,7 @@ function App() {
         <div className="AppAr" dir="rtl">
           {/* hello arabic */}
           <Switch>
-            <Redirect exact from="/" to="/yodawy" />
+            {/* <Redirect exact from="/" to="/yodawy" /> */}
             <Route path="/yodawy" exact>
               <HomeAr />
             </Route>
