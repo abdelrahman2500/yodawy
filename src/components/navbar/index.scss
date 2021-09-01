@@ -1,0 +1,129 @@
+.top {
+  background-color: #f0f2f5;
+  font-size: 12px;
+  .first-span {
+  }
+  .icons {
+    span {
+      margin-inline: 10px;
+      a{
+        color: #12233f;
+      }
+      .fa-facebook-f{
+        transition: .3s;
+        &:hover{
+          color: #1877f2;
+        }
+      }
+      .fa-instagram{
+        transition: .3s;
+        &:hover{
+          color: #833ab4;
+        }
+      }
+      .fa-linkedin-in{
+        transition: .3s;
+        &:hover{
+          color: #0077b5;
+        }
+      }
+      button {
+      }
+    }
+  }
+}
+.middle {
+  font-size: 12px;
+  nav {
+    background-color: #12233f;
+    .navbar-nav{
+      padding-right: 0;
+      button{
+        @media(max-width: "678px"){
+          font-size: 18px;
+        }
+      }
+    }
+    .box {
+      width: 100%;
+      height: 34px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    ul {
+      li {
+        margin-inline: 10px;
+      }
+    }
+    .navbar-collapse.collapse.show{
+      background-color: #12233f;
+    }
+  }
+
+}
+
+.search {
+  .box {
+    width: 100%;
+    height: 34px;
+    img {
+      width: 80%;
+      height: 100%;
+    }
+  }
+  .search-input {
+    input {
+      color: #212529;
+      background-color: #fff;
+      border-color: #ced4da;
+      outline: 0;
+      box-shadow: none;
+      &:focus{
+        color: #212529;
+        background-color: #fff;
+        border-color: #ced4da;
+        outline: 0;
+        box-shadow: none;
+      }
+    }
+    .search-span {
+      height: 100%;
+      background-color: #FFF;
+      transition: .3s;
+      &:hover{
+        background-color: #18A2D3;
+        color: #FFF;
+      }
+      i {
+      }
+
+    }
+  }
+}
+
+.ar-style {
+  .input-group
+    > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+      border-radius: 0.25rem;
+      margin-right: -1px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu), .input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n+3) {
+    border-radius: 0.25rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    
+}
+}
+
+.search-span.en{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.search-span.ar{
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}

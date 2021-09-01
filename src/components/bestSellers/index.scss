@@ -1,0 +1,32 @@
+/** @format */
+// .container {
+//   overflow: hidden;
+// }
+.head {
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+.slick-dots li button:before {
+  font-size: 17px !important;
+  color: #18a2d3 !important;
+}
+
+.best_seller{
+  .card{
+    border: none;
+  }
+}
+.boxx{
+  height: 288px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  border: 1px solid #969696;
+  padding: 10px;
+  img{
+    max-height: 100%;
+    max-width: 100%;
+  }
+}

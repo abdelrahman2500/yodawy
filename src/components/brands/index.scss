@@ -1,0 +1,53 @@
+/** @format */
+.brands{
+  border-top: 1px solid #122357;
+  padding: 10px 0;
+  h3{
+    cursor: pointer;
+    color: #159EDA;
+  }
+  .hoverA {
+    color: #122357;
+    text-decoration: none;
+    transition: .3s;
+    &:hover {
+      color: orange;
+    }
+    span {
+      font-size: 12px;
+    }
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+}
+
+// .border1{
+//   border-top: 1px solid grey;
+//   border-bottom: 1px solid grey;
+// }
+
+
+.brand__container{
+  // float: left;
+  left:0;
+  height:250px;
+  // display:block;
+  overflow-y:scroll;
+}
+
