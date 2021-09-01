@@ -20,7 +20,7 @@ export default function HeaderAr() {
             </div>
             <div className="col-12 col-sm-5">
               <div className="box row justify-content-center ">
-                <img src={"/images/header/mockup-popup.png"} className="img" />
+                <img src={process.env.PUBLIC_URL + "/images/header/mockup-popup.png"} className="img" />
               </div>
 
               <h2 className="d-sm-none h4 mt-4 text-center">

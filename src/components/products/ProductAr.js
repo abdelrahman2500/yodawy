@@ -58,7 +58,7 @@ export default function ProductAr(props) {
     <div className="product ar">
       <div className="product_inner text-center">
         <div className=" w-100 top1">
-          <img src={`/images/products/${product.imagePath}`}  data-bs-toggle="modal" data-bs-target={`#exampleModal${product.id}`} className="" />
+          <img src={process.env.PUBLIC_URL + `/images/products/${product.imagePath}`}  data-bs-toggle="modal" data-bs-target={`#exampleModal${product.id}`} className="" />
 
           <div className="modal text-end fade" id={`exampleModal${product.id}`} tabIndex="-1" aria-labelledby={`exampleModal${product.id}Label`} aria-hidden="true">
             <div className="modal-dialog">
@@ -71,7 +71,7 @@ export default function ProductAr(props) {
                   <div className="row">
                     <div className="col-12 col-md-4 row align-items-center">
                       <div className="box row justify-content-center ">
-                        <img src={`/images/products/${product.imagePath}`}  className="" />
+                        <img src={process.env.PUBLIC_URL + `/images/products/${product.imagePath}`}  className="" />
                       </div>
                     </div>
                     <div className="col-12 col-md-8">
@@ -80,7 +80,7 @@ export default function ProductAr(props) {
                           <p className="lead badge bg-success text-white">متاح</p>
                         </div>
                         <div className="col-12 py-2">
-                          <Link to="/shop" className="text-decoration-none" data-bs-dismiss="modal" onClick={()=> context.setFilterd(context.products.filter(p => p.brandAr == product.brandAr))}>{product.brandAr}</Link>
+                          <Link to="/yodawy/shop" className="text-decoration-none" data-bs-dismiss="modal" onClick={()=> context.setFilterd(context.products.filter(p => p.brandAr == product.brandAr))}>{product.brandAr}</Link>
                         </div>
                         <div className="col-12 py-2 border-bottom">
                           <h2 className="h3 fw-bold">{product.offerAr == "لا"? product.descriptionAr : `(${product.offerAr}) ${product.descriptionAr}`}</h2>

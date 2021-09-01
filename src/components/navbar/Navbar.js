@@ -96,7 +96,7 @@ export default function Navbar(props) {
               to="/yodawy"
             >
               <div className="box">
-                <img src={"/images/logo/yodawy-logo-300x74.png"} />
+                <img src={process.env.PUBLIC_URL + "/images/logo/yodawy-logo-300x74.png"} />
               </div>
             </Link>
             <button
@@ -116,39 +116,39 @@ export default function Navbar(props) {
             >
               <ul className="navbar-nav m-auto mb-2 mb-lg-0">
                 <li className="nav-item ">
-                  <NavLink onClick={()=> context.setFilterd(context.products)} className="nav-link" aria-current="page" to="/shop/1">
+                  <NavLink onClick={()=> context.setFilterd(context.products)} className="nav-link" aria-current="page" to="/yodawy/shop/1">
                     shop
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/pharamcies">
+                  <NavLink className="nav-link" to="/yodawy/pharamcies">
                     For pharmacies
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/insurers">
+                  <NavLink className="nav-link" to="/yodawy/insurers">
                     For Insurers
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/doctors">
+                  <NavLink className="nav-link" to="/yodawy/doctors">
                     For doctors
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/about">
+                  <NavLink className="nav-link" to="/yodawy/about">
                     about us
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/blog">
+                  <NavLink className="nav-link" to="/yodawy/blog">
                     blog
                   </NavLink>
                 </li>
                 <li className="nav-item">
                   <NavLink
                     className="nav-link"
-                    to="/contact"
+                    to="/yodawy/contact"
                   >
                     contact
                   </NavLink>
@@ -156,7 +156,7 @@ export default function Navbar(props) {
                 <li className="nav-item fw-bolder">
                   <NavLink
                     className="nav-link"
-                    to="/cart"
+                    to="/yodawy/cart"
                   >
                     <i className="fas fa-shopping-cart "></i>
                     <span style={{fontSize:"10px"}} className="badge bg-info rounded position-absolute">{localStorage.getItem("cart-items")? JSON.parse(localStorage.getItem("cart-items")).length : 0}</span>
@@ -167,7 +167,7 @@ export default function Navbar(props) {
                 <li className={props.compo == false ? "d-none" : "nav-item fw-bolder mx-3"}>
                   <NavLink
                     className="nav-link"
-                    to="/login" exact
+                    to="/yodawy/login" exact
                   >
                     <i className="fas fa-sign-out-alt "></i>
                     <span style={{fontSize:"10px"}} className="badge bg-success rounded position-absolute">{localStorage.getItem("username")? localStorage.getItem("username") : ""}</span>
@@ -176,7 +176,7 @@ export default function Navbar(props) {
                 <li className={props.compo == false ? "d-none" : "nav-item fw-bolder mx-3"}>
                   <NavLink
                     className="nav-link"
-                    to="/login" exact
+                    to="/yodawy/login" exact
                   >
                     <i className="fas fa-sign-out-alt "></i>
                     <span style={{fontSize:"10px"}} className="badge bg-secondary rounded position-absolute">login</span>
@@ -200,7 +200,7 @@ export default function Navbar(props) {
             <div className="col-3 col-md-2">
               <div className="box  m-lg-4">
                 <Link to="/yodawy">
-                  <img src={"/images/logo/Yodawylogo.png"} />
+                  <img src={process.env.PUBLIC_URL + "/images/logo/Yodawylogo.png"} />
                 </Link>
               </div>
             </div>
@@ -216,7 +216,7 @@ export default function Navbar(props) {
                   value={searchValue}
                   onChange={(e)=>setSearchValue(e.target.value)}
                 />
-                  <Link to={searchValue.trim()== ""?"" : '/shop'} onClick={() => context.setFilterd(context.products.filter(el=> 
+                  <Link to={searchValue.trim()== ""?"" : '/yodawy/shop'} onClick={() => context.setFilterd(context.products.filter(el=> 
                     el.brand.toLowerCase().indexOf(searchValue.trim().toLowerCase()) != -1
                     || el.categoryName.toLowerCase().indexOf(searchValue.trim().toLowerCase()) != -1
                     || el.categoryBranchName.toLowerCase().indexOf(searchValue.trim().toLowerCase()) != -1

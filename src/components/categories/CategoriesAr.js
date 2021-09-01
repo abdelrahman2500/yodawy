@@ -12,11 +12,11 @@ export default function Categories(){
                     <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
                         <div className="box position-relative rounded w-100 h-25 pb-4">
                             <img
-                            src={"/images/Categories/dermocosmatics.jpg"}
+                            src={process.env.PUBLIC_URL + "/images/Categories/dermocosmatics.jpg"}
                             className="w-100 h-100"
                             alt=""
                             />
-                            <Link to="/shop">
+                            <Link to="/yodawy/shop">
                                 <div className="title rounded position-absolute mb-4">
                                     <h4 className="fw-bold">منتجات التجميل الطبيه</h4>
                                 </div>
@@ -24,11 +24,11 @@ export default function Categories(){
                         </div>
                         <div className="box position-relative rounded w-100 h-50 pb-4">
                             <img
-                            src={"/images/Categories/personal-care.jpg"}
+                            src={process.env.PUBLIC_URL + "/images/Categories/personal-care.jpg"}
                             className="w-100 h-100"
                             alt=""
                             />
-                            <Link to="/shop">
+                            <Link to="/yodawy/shop">
                                 <div className="title rounded position-absolute mb-4">
                                     <h4 className="fw-bold">العناية الشخصية</h4>
                                 </div>
@@ -36,11 +36,11 @@ export default function Categories(){
                         </div>
                         <div className="box position-relative rounded w-100 h-25 pb-4">
                             <img
-                            src={"/images/Categories/oral-care.jpg"}
+                            src={process.env.PUBLIC_URL + "/images/Categories/oral-care.jpg"}
                             className="w-100 h-100"
                             alt=""
                             />
-                            <Link to="/shop">
+                            <Link to="/yodawy/shop">
                                 <div className="title rounded position-absolute mb-4">
                                     <h4 className="fw-bold">العناية بالفم</h4>
                                 </div>
@@ -52,11 +52,11 @@ export default function Categories(){
                     
                         <div className="box position-relative rounded w-100 h-50 pb-4">
                             <img
-                            src={"/images/Categories/men-care.jpg"}
+                            src={process.env.PUBLIC_URL + "/images/Categories/men-care.jpg"}
                             className="w-100 h-100"
                             alt=""
                             />
-                            <Link to="/shop">
+                            <Link to="/yodawy/shop">
                                 <div className="title rounded position-absolute mb-4">
                                     <h4 className="fw-bold">مستلزمات الرجال</h4>
                                 </div>
@@ -64,11 +64,11 @@ export default function Categories(){
                         </div>
                         <div className="box position-relative rounded w-100 h-50 pb-4">
                             <img
-                            src={"/images/Categories/baby.jpg"}
+                            src={process.env.PUBLIC_URL + "/images/Categories/baby.jpg"}
                             className="w-100 h-100"
                             alt=""
                             />
-                            <Link to="/shop">
+                            <Link to="/yodawy/shop">
                                 <div className="title rounded position-absolute mb-4">
                                     <h4 className="fw-bold">مستلزمات الأطفال</h4>
                                 </div>
@@ -81,11 +81,11 @@ export default function Categories(){
                     
                         <div className="box position-relative rounded w-100 h-25 pb-4">
                             <img
-                            src={"/images/Categories/bath-body.jpg"}
+                            src={process.env.PUBLIC_URL + "/images/Categories/bath-body.jpg"}
                             className="w-100 h-100"
                             alt=""
                             />
-                            <Link to="/shop">
+                            <Link to="/yodawy/shop">
                                 <div className="title rounded position-absolute mb-4">
                                     <h4 className="fw-bold">مستلزمات الإستحمام</h4>
                                 </div>
@@ -93,11 +93,11 @@ export default function Categories(){
                         </div>
                         <div className="box position-relative rounded w-100 h-50 pb-4">
                             <img
-                            src={"/images/Categories/hair-care.jpg"}
+                            src={process.env.PUBLIC_URL + "/images/Categories/hair-care.jpg"}
                             className="w-100 h-100"
                             alt=""
                             />
-                            <Link to="/shop">
+                            <Link to="/yodawy/shop">
                                 <div className="title rounded position-absolute mb-4">
                                     <h4 className="fw-bold">العناية بالشعر</h4>
                                 </div>
@@ -105,11 +105,11 @@ export default function Categories(){
                         </div>
                         <div className="box position-relative rounded w-100 h-25 pb-4">
                             <img
-                            src={"/images/Categories/contact-lenses.jpg"}
+                            src={process.env.PUBLIC_URL + "/images/Categories/contact-lenses.jpg"}
                             className="w-100 h-100"
                             alt=""
                             />
-                            <Link to="/shop">
+                            <Link to="/yodawy/shop">
                                 <div className="title rounded position-absolute mb-4">
                                     <h4 className="fw-bold">عدسات لاصقة</h4>
                                 </div>

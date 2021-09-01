@@ -37,14 +37,14 @@ export default function Sidebar() {
                                 <h2 className="accordion-header" id={`flush-heading${i}`}>
                                     <button  className="accordion-button collapsed px-0 py-1 text-capitalize" type="button" data-bs-toggle="collapse" data-bs-target={`#flush-collapse${i}`} aria-expanded="false" aria-controls={`flush-collapse${i}`}>
                                         <h5 onClick={()=> context.setFilterd(context.products.filter(p => p.categoryName == el))}>{el}</h5>
-                                        <Redirect to="/shop/1" />
+                                        <Redirect to="/yodawy/shop/1" />
                                     </button>
                                 </h2>
                                 <div id={`flush-collapse${i}`} className="accordion-collapse collapse" aria-labelledby={`flush-heading${i}`} data-bs-parent="#accordionFlushExample">
                                     {brArr.map(b => {for(let j =0 ; j< context.products.length; j++){
                                             if(context.products[j].categoryName == el && context.products[j].categoryBranchName == b){
                                                 return (<div className="accordion-body py-1 " key={b}>
-                                                    <Redirect to="/shop/1" />
+                                                    <Redirect to="/yodawy/shop/1" />
                                                     <span className="branch" onClick={()=> context.setFilterd(context.products.filter(p => p.categoryBranchName == b))}>{b}</span>
                                                 </div>)
                                             }

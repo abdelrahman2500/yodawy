@@ -18,22 +18,22 @@ export default function ForInsurers() {
                                         <h2 className="col-10 p-2">Patient-centric experiences designed to make health insurance easier</h2>
                                         <div className="row my-2">
                                             <div className="col-2 d-none d-sm-block p-lg-5">
-                                                <img className="img-responsive" src="../images/logo/metlife.png" />
+                                                <img className="img-responsive" src={process.env.PUBLIC_URL + "/images/logo/metlife.png"} />
                                             </div>
                                             <div className="col-2 d-none d-sm-block p-lg-5">
-                                                <img className="img-responsive" src="../images/logo/axa.png" />
+                                                <img className="img-responsive" src={process.env.PUBLIC_URL + "/images/logo/axa.png"} />
                                             </div>
                                             <div className="col-2 d-none d-sm-block p-lg-5">
-                                                <img className="img-responsive" src="../images/logo/mednet.png" />
+                                                <img className="img-responsive" src={process.env.PUBLIC_URL + "/images/logo/mednet.png"} />
                                             </div>
                                             <div className="col-2 d-none d-sm-block p-lg-5">
-                                                <img className="img-responsive" src="../images/logo/amc.png" />
+                                                <img className="img-responsive" src={process.env.PUBLIC_URL + "/images/logo/amc.png"} />
                                             </div>
                                             <div className="col-2 d-none d-sm-block p-lg-5">
-                                                <img className="img-responsive" src="../images/logo/nextcare.png" />
+                                                <img className="img-responsive" src={process.env.PUBLIC_URL + "/images/logo/nextcare.png"} />
                                             </div>
                                             <div className="col-2 d-none d-sm-block p-lg-5">
-                                                <img className="img-responsive" src="../images/logo/unicare.png" />
+                                                <img className="img-responsive" src={process.env.PUBLIC_URL + "/images/logo/unicare.png"} />
                                             </div>
                                         </div>
                                         <p className="col-10 p-1">Our digital infrastructure is designed to transform health insurance providers and empower their end-to-end process. Patients simply add their insurance cards and order their medications to be delivered at home. We worry about the rest.</p>

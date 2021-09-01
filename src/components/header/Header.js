@@ -23,7 +23,7 @@ export default function Header() {
             <div className="col-12 col-sm-5">
               <div className="box row justify-content-center ">
                 <img
-                  src={"/images/header/mockup-slider-en.png"}
+                  src={process.env.PUBLIC_URL + "/images/header/mockup-slider-en.png"}
                   className="img"
                 />
               </div>
