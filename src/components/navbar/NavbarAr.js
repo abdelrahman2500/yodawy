@@ -100,44 +100,44 @@ export default function NavbarAr(props) {
             >
               <ul className="navbar-nav m-auto mb-2 mb-lg-0">
                 <li className="nav-item ">
-                  <NavLink onClick={()=> context.setFilterd(context.products)} className="nav-link" aria-current="page" to="/yodawy/shop/1">
+                  <NavLink onClick={()=> context.setFilterd(context.products)} className="nav-link" aria-current="page" to="/shop/1">
                     السوق
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/yodawy/pharamcies">
+                  <NavLink className="nav-link" to="/pharamcies">
                     الصيدليات
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/yodawy/insurers">
+                  <NavLink className="nav-link" to="/insurers">
                     التأمين الصحى
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/yodawy/doctors">
+                  <NavLink className="nav-link" to="/doctors">
                     الأطباء
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/yodawy/about">
+                  <NavLink className="nav-link" to="/about">
                     عن يداوي  
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/yodawy/blog">
+                  <NavLink className="nav-link" to="/blog">
                    المدونة
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/yodawy/contact">
+                  <NavLink className="nav-link" to="/contact">
                     تواصل معنا
                   </NavLink>
                 </li>
                 <li className="nav-item fw-bolder">
                   <NavLink
                     className="nav-link"
-                    to="/yodawy/cart"
+                    to="/cart"
                   >
                     <i style={{transform:"rotateY(180deg)"}} className="fas fa-shopping-cart "></i>
                     <span style={{fontSize:"10px"}} className="badge bg-info rounded position-absolute">{localStorage.getItem("cart-items")? JSON.parse(localStorage.getItem("cart-items")).length : 0}</span>
@@ -147,7 +147,7 @@ export default function NavbarAr(props) {
                 <li className="nav-item fw-bolder mx-3">
                   <NavLink
                     className="nav-link"
-                    to="/yodawy/login" exact
+                    to="/login" exact
                   >
                     <i className="fas fa-sign-out-alt "></i>
                     <span style={{fontSize:"10px"}} className="badge bg-success rounded position-absolute">{localStorage.getItem("username")? localStorage.getItem("username") : ""}</span>
@@ -156,7 +156,7 @@ export default function NavbarAr(props) {
                 <li className={props.compo == false ? "d-none" : "nav-item fw-bolder mx-3"}>
                   <NavLink
                     className="nav-link"
-                    to="/yodawy/login" exact
+                    to="/login" exact
                   >
                     <i className="fas fa-sign-out-alt "></i>
                     <span style={{fontSize:"10px"}} className="badge bg-secondary rounded position-absolute">دخول</span>
@@ -195,7 +195,7 @@ export default function NavbarAr(props) {
                   value={searchValue}
                   onChange={(e)=>setSearchValue(e.target.value)}
                 />
-              <Link to={searchValue.trim()== ""?"" : '/yodawy/shop'} onClick={() => context.setFilterd(context.products.filter(el=> 
+              <Link to={searchValue.trim()== ""?"" : '/shop'} onClick={() => context.setFilterd(context.products.filter(el=> 
                   el.brand.toLowerCase().indexOf(searchValue.trim().toLowerCase()) != -1
                   || el.categoryName.toLowerCase().indexOf(searchValue.trim().toLowerCase()) != -1
                   || el.categoryBranchName.toLowerCase().indexOf(searchValue.trim().toLowerCase()) != -1
