@@ -40,34 +40,34 @@ function App() {
             <Route path="/yodawy" exact>
               <Home />
             </Route>
-            <Route path="/shop" >
+            <Route path="/yodawy/shop" >
               <Shop />
             </Route>
-            <Route path="/pharamcies" exact>
+            <Route path="/yodawy/pharamcies" exact>
               <ForPharmacies />
             </Route>
-            <Route path="/insurers" exact>
+            <Route path="/yodawy/insurers" exact>
               <ForInsurers />
             </Route>
-            <Route path="/doctors" exact>
+            <Route path="/yodawy/doctors" exact>
               <ForDoctors />
             </Route>
-            <Route path="/about" exact>
+            <Route path="/yodawy/about" exact>
               <AboutUs />
             </Route>
-            <Route path="/blog" exact>
+            <Route path="/yodawy/blog" exact>
               <Blog />
             </Route>
-            <Route path="/contact" exact>
+            <Route path="/yodawy/contact" exact>
               <Contact />
             </Route>
-            <Route path="/cart" exact>
+            <Route path="/yodawy/cart" exact>
               <Cart />
             </Route>
-            <Route path="/login" exact>
+            <Route path="/yodawy/login" exact>
               <Login />
             </Route>
-            <Route path="/addproduct" exact>
+            <Route path="/yodawy/addproduct" exact>
               <AddProduct />
             </Route>
             <Route path="*">
@@ -83,34 +83,34 @@ function App() {
             <Route path="/yodawy" exact>
               <HomeAr />
             </Route>
-            <Route path="/shop" >
+            <Route path="/yodawy/shop" >
               <ShopAr />
             </Route>
-            <Route path="/pharamcies" exact>
+            <Route path="/yodawy/pharamcies" exact>
               <ForPharmaciesAr />
             </Route>
-            <Route path="/insurers" exact>
+            <Route path="/yodawy/insurers" exact>
               <ForInsurersAr />
             </Route>
-            <Route path="/doctors" exact>
+            <Route path="/yodawy/doctors" exact>
               <ForDoctorsAr />
             </Route>
-            <Route path="/about" exact>
+            <Route path="/yodawy/about" exact>
               <AboutUsAr />
             </Route>
-            <Route path="/blog" exact>
+            <Route path="/yodawy/blog" exact>
               <BlogAr />
             </Route>
-            <Route path="/contact" exact>
+            <Route path="/yodawy/contact" exact>
               <ContactAr />
             </Route>
-            <Route path="/cart" exact>
+            <Route path="/yodawy/cart" exact>
               <CartAr />
             </Route>
-            <Route path="/login" exact>
+            <Route path="/yodawy/login" exact>
               <LoginAr />
             </Route>
-            <Route path="/addproduct" exact>
+            <Route path="/yodawy/addproduct" exact>
               <AddProductAr />
             </Route>
             <Route path="*">
