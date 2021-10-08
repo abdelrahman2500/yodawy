@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/yodawy/static/css/main.b152df6c.chunk.css",
-    "main.js": "/yodawy/static/js/main.98c4097e.chunk.js",
-    "main.js.map": "/yodawy/static/js/main.98c4097e.chunk.js.map",
+    "main.js": "/yodawy/static/js/main.9f175958.chunk.js",
+    "main.js.map": "/yodawy/static/js/main.9f175958.chunk.js.map",
     "runtime-main.js": "/yodawy/static/js/runtime-main.8b956f59.js",
     "runtime-main.js.map": "/yodawy/static/js/runtime-main.8b956f59.js.map",
     "static/css/2.25203b92.chunk.css": "/yodawy/static/css/2.25203b92.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.25203b92.chunk.css",
     "static/js/2.60671f34.chunk.js",
     "static/css/main.b152df6c.chunk.css",
-    "static/js/main.98c4097e.chunk.js"
+    "static/js/main.9f175958.chunk.js"
   ]
 }
