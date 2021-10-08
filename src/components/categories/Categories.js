@@ -16,7 +16,7 @@ export default function Categories(){
                             className="w-100 h-100"
                             alt=""
                             />
-                            <Link to="/yodawy/shop">
+                            <Link to="/shop">
                                 <div className="title rounded position-absolute mb-4">
                                     <h4 className="fw-bold">dermocosmatics</h4>
                                 </div>
@@ -28,7 +28,7 @@ export default function Categories(){
                             className="w-100 h-100"
                             alt=""
                             />
-                            <Link to="/yodawy/shop">
+                            <Link to="/shop">
                                 <div className="title rounded position-absolute mb-4">
                                     <h4 className="fw-bold">personal care</h4>
                                 </div>
@@ -40,7 +40,7 @@ export default function Categories(){
                             className="w-100 h-100"
                             alt=""
                             />
-                            <Link to="/yodawy/shop">
+                            <Link to="/shop">
                                 <div className="title rounded position-absolute mb-4">
                                     <h4 className="fw-bold">oral care</h4>
                                 </div>
@@ -56,7 +56,7 @@ export default function Categories(){
                             className="w-100 h-100"
                             alt=""
                             />
-                            <Link to="/yodawy/shop">
+                            <Link to="/shop">
                                 <div className="title rounded position-absolute mb-4">
                                     <h4 className="fw-bold">men care</h4>
                                 </div>
@@ -68,7 +68,7 @@ export default function Categories(){
                             className="w-100 h-100"
                             alt=""
                             />
-                            <Link to="/yodawy/shop">
+                            <Link to="/shop">
                                 <div className="title rounded position-absolute mb-4">
                                     <h4 className="fw-bold">baby</h4>
                                 </div>
@@ -85,7 +85,7 @@ export default function Categories(){
                             className="w-100 h-100"
                             alt=""
                             />
-                            <Link to="/yodawy/shop">
+                            <Link to="/shop">
                                 <div className="title rounded position-absolute mb-4">
                                     <h4 className="fw-bold">bath & body</h4>
                                 </div>
@@ -97,7 +97,7 @@ export default function Categories(){
                             className="w-100 h-100"
                             alt=""
                             />
-                            <Link to="/yodawy/shop">
+                            <Link to="/shop">
                                 <div className="title rounded position-absolute mb-4">
                                     <h4 className="fw-bold">hair care</h4>
                                 </div>
@@ -109,7 +109,7 @@ export default function Categories(){
                             className="w-100 h-100"
                             alt=""
                             />
-                            <Link to="/yodawy/shop">
+                            <Link to="/shop">
                                 <div className="title rounded position-absolute mb-4">
                                     <h4 className="fw-bold">contact lenses</h4>
                                 </div>

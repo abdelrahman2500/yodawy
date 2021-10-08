@@ -8,16 +8,16 @@ import "../node_modules/bootstrap/dist/js/bootstrap";
 import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
 import "../node_modules/@fortawesome/fontawesome-free/js/all";
 import { ContextProvider } from "./context/Context";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, HashRouter } from "react-router-dom";
 
 
 
 ReactDOM.render(
   <React.StrictMode>
     <ContextProvider>
-      <Router>
+      <HashRouter>
         <App />
-      </Router>
+      </HashRouter>
     </ContextProvider>
   </React.StrictMode>,
   document.getElementById("root")

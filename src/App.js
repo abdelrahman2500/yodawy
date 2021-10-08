@@ -36,38 +36,38 @@ function App() {
         <div className="AppEn">
           {/* hello english */}
           <Switch>
-            {/* <Redirect exact from="/" to="/yodawy" /> */}
-            <Route path="/yodawy" exact>
+            {/* <Redirect exact from="/" to="" /> */}
+            <Route path="/" exact>
               <Home />
             </Route>
-            <Route path="/yodawy/shop" >
+            <Route path="/shop" >
               <Shop />
             </Route>
-            <Route path="/yodawy/pharamcies" exact>
+            <Route path="/pharamcies" exact>
               <ForPharmacies />
             </Route>
-            <Route path="/yodawy/insurers" exact>
+            <Route path="/insurers" exact>
               <ForInsurers />
             </Route>
-            <Route path="/yodawy/doctors" exact>
+            <Route path="/doctors" exact>
               <ForDoctors />
             </Route>
-            <Route path="/yodawy/about" exact>
+            <Route path="/about" exact>
               <AboutUs />
             </Route>
-            <Route path="/yodawy/blog" exact>
+            <Route path="/blog" exact>
               <Blog />
             </Route>
-            <Route path="/yodawy/contact" exact>
+            <Route path="/contact" exact>
               <Contact />
             </Route>
-            <Route path="/yodawy/cart" exact>
+            <Route path="/cart" exact>
               <Cart />
             </Route>
-            <Route path="/yodawy/login" exact>
+            <Route path="/login" exact>
               <Login />
             </Route>
-            <Route path="/yodawy/addproduct" exact>
+            <Route path="/addproduct" exact>
               <AddProduct />
             </Route>
             <Route path="*">
@@ -79,38 +79,38 @@ function App() {
         <div className="AppAr" dir="rtl">
           {/* hello arabic */}
           <Switch>
-            {/* <Redirect exact from="/" to="/yodawy" /> */}
-            <Route path="/yodawy" exact>
+            {/* <Redirect exact from="/" to="" /> */}
+            <Route path="/" exact>
               <HomeAr />
             </Route>
-            <Route path="/yodawy/shop" >
+            <Route path="/shop" >
               <ShopAr />
             </Route>
-            <Route path="/yodawy/pharamcies" exact>
+            <Route path="/pharamcies" exact>
               <ForPharmaciesAr />
             </Route>
-            <Route path="/yodawy/insurers" exact>
+            <Route path="/insurers" exact>
               <ForInsurersAr />
             </Route>
-            <Route path="/yodawy/doctors" exact>
+            <Route path="/doctors" exact>
               <ForDoctorsAr />
             </Route>
-            <Route path="/yodawy/about" exact>
+            <Route path="/about" exact>
               <AboutUsAr />
             </Route>
-            <Route path="/yodawy/blog" exact>
+            <Route path="/blog" exact>
               <BlogAr />
             </Route>
-            <Route path="/yodawy/contact" exact>
+            <Route path="/contact" exact>
               <ContactAr />
             </Route>
-            <Route path="/yodawy/cart" exact>
+            <Route path="/cart" exact>
               <CartAr />
             </Route>
-            <Route path="/yodawy/login" exact>
+            <Route path="/login" exact>
               <LoginAr />
             </Route>
-            <Route path="/yodawy/addproduct" exact>
+            <Route path="/addproduct" exact>
               <AddProductAr />
             </Route>
             <Route path="*">

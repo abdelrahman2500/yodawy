@@ -24,7 +24,7 @@ export default function Brands() {
                 key={brand}
                 className="col-12 my-2 text-uppercase fw-bold "
               >
-                <Link to="/yodawy/shop" onClick={()=> context.setFilterd(context.products.filter(p => p.brandAr == brand))} className="hoverA">
+                <Link to="/shop" onClick={()=> context.setFilterd(context.products.filter(p => p.brandAr == brand))} className="hoverA">
                   <span className="m-2">{brand}</span>
                 </Link>
               </li>

@@ -130,7 +130,7 @@ export default function Login() {
             <Navbar compo={true}/>
             <div className="my-5 text-center ">
                 <h2>hello {localStorage.getItem("username")}</h2>
-                <h3 className="my-5 py-5">You are logged in .. go to <Link to="/yodawy/">home</Link></h3>
+                <h3 className="my-5 py-5">You are logged in .. go to <Link to="/">home</Link></h3>
                 {localStorage.getItem("role") == "seller" ? <button className="btn btn-light mx-2"><Link to="/addproduct">Add Product</Link></button>: ""}
                 <button className="btn btn-danger" onClick={()=> logout()}>Sign Out</button>
             </div>

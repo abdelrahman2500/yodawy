@@ -112,7 +112,7 @@ export default function BestSeller() {
             {/*  */}
             {best.map(el => 
               <div className="card pt-4 mb-3" key={el.id}>
-              <Link to="/yodawy/shop" onClick={()=> context.setFilterd(context.products.filter(p => p.id == el.id))}>
+              <Link to="/shop" onClick={()=> context.setFilterd(context.products.filter(p => p.id == el.id))}>
                 <div className="boxx">
                   <img
                     src={process.env.PUBLIC_URL + `/images/products/${el.imagePath}`}

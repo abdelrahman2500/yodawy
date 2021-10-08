@@ -144,7 +144,7 @@ function handleProCount(e){
                   <ul className="pagination justify-content-center py-0">
                     {context.filterd.map((el,i) => 
                       i < Math.ceil(context.filterd.length / proCount) ? 
-                      <NavLink to={`/yodawy/shop/${i+1}`} onClick={()=>setPage(i+1)} key={el.id}>
+                      <NavLink to={`/shop/${i+1}`} onClick={()=>setPage(i+1)} key={el.id}>
                         <li className="page-item" onClick={()=> gototop()}><span className="page-link">{i+1}</span></li>
                       </NavLink>
                       : ""

@@ -128,7 +128,7 @@ export default function LoginAr() {
             <NavbarAr compo={true}/>
             <div className="my-5 text-center ">
                 <h2>مرحبا {localStorage.getItem("username")}</h2>
-                <h3 className="my-5 py-5">لقد سجلت الدخول .. عُد إلى <Link to="/yodawy/">الصفحة الرئيسية</Link></h3>
+                <h3 className="my-5 py-5">لقد سجلت الدخول .. عُد إلى <Link to="/">الصفحة الرئيسية</Link></h3>
                 {localStorage.getItem("role") == "seller" ? <button className="btn btn-light mx-2"><Link to="/addproduct">أضف منتج</Link></button>: ""}
                 <button className="btn btn-danger" onClick={()=> logout()}>تسجيل الخروج</button>
             </div>

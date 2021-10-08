@@ -23,7 +23,7 @@ export default function BlogAr() {
                                     <div className="card-body px-0">
                                         <h6 className="card-title">مارس 18, 2021</h6>
                                         <div className="card-text">
-                                            <Link className="text-decoration-none" to="/yodawy/blog"><h4>إيه هي جرثومة المعدة؟ (الوقاية والأعراض والعلاج)</h4></Link>
+                                            <Link className="text-decoration-none" to="/blog"><h4>إيه هي جرثومة المعدة؟ (الوقاية والأعراض والعلاج)</h4></Link>
                                             <p>تُعتبر جرثومة المعدة من الأمراض الأكثر شيوعًا بين الناس، لدرجة أنّها بتصيب نحو نصف سكان العالم تقريبًا بحسب المكتبة الوطنية للطب في الولايات المتحدة، وبتسبب سلسلة من الأمراض في الجهاز الهضمي.</p>
                                         </div>
                                     </div>
@@ -39,7 +39,7 @@ export default function BlogAr() {
                                         <div className="card-body px-0">
                                         <h6 className="card-title">22 مارس 2021</h6>
                                         <div className="card-text">
-                                            <Link className="text-decoration-none" to="/yodawy/blog"><h4>كم عدد السعرات الحرارية التي يجب أن أتناولها كل يوم؟</h4></Link>
+                                            <Link className="text-decoration-none" to="/blog"><h4>كم عدد السعرات الحرارية التي يجب أن أتناولها كل يوم؟</h4></Link>
                                             <p>هذا هو السؤال الذي يطرحه معظم الناس ، ويتساءلون ما إذا كان هذا الطعام أو ذاك مفيدًا لنظامهم الغذائي أم لا. والسعرات الحرارية في هذا الصدد هي كمية الطاقة التي نحصل عليها من الأطعمة التي نستهلكها.</p>
                                         </div>
                                     </div>
@@ -55,7 +55,7 @@ export default function BlogAr() {
                                         <div className="card-body px-0">
                                         <h6 className="card-title">22 مارس 2021</h6>
                                         <div className="card-text">
-                                            <Link className="text-decoration-none" to="/yodawy/blog"><h4>ما الفرق بين اختبار المستضد واختبارات تفاعل البوليميراز المتسلسل لفيروس كورونا؟</h4></Link>
+                                            <Link className="text-decoration-none" to="/blog"><h4>ما الفرق بين اختبار المستضد واختبارات تفاعل البوليميراز المتسلسل لفيروس كورونا؟</h4></Link>
                                             <p>تسبب انتشار السارس- CoV-2 ومرضه كوفيد-19 في الكثير من الجدل حول شكل الحياة الحديثة في العديد من الجوانب.</p>
                                         </div>
                                     </div>
@@ -90,17 +90,17 @@ export default function BlogAr() {
                             <div className="tags col-12">
                                 <h3 className="fw-bold mb-3">العلامات</h3>
                                 <div className="t text-uppercase">
-                                    <span className="m-1"><Link to="/yodawy/blog">مولد المضاد</Link></span>
-                                    <span className="m-1"><Link to="/yodawy/blog">سعرات حراريه</Link></span>
-                                    <span className="m-1"><Link to="/yodawy/blog">فيروس كورونا</Link></span>
-                                    <span className="m-1"><Link to="/yodawy/blog">كوفيد-19</Link></span>
-                                    <span className="m-1"><Link to="/yodawy/blog">نصيحة صحية</Link></span>
-                                    <span className="m-1"><Link to="/yodawy/blog">حياة صحية</Link></span>
-                                    <span className="m-1"><Link to="/yodawy/blog">متلازمة القولون المتهيج</Link></span>
-                                    <span className="m-1"><Link to="/yodawy/blog">أسلوب الحياة</Link></span>
-                                    <span className="m-1"><Link to="/yodawy/blog">بى سى أر</Link></span>
-                                    <span className="m-1"><Link to="/yodawy/blog">أعراض</Link></span>
-                                    <span className="m-1"><Link to="/yodawy/blog">لياقة بدنية</Link></span>
+                                    <span className="m-1"><Link to="/blog">مولد المضاد</Link></span>
+                                    <span className="m-1"><Link to="/blog">سعرات حراريه</Link></span>
+                                    <span className="m-1"><Link to="/blog">فيروس كورونا</Link></span>
+                                    <span className="m-1"><Link to="/blog">كوفيد-19</Link></span>
+                                    <span className="m-1"><Link to="/blog">نصيحة صحية</Link></span>
+                                    <span className="m-1"><Link to="/blog">حياة صحية</Link></span>
+                                    <span className="m-1"><Link to="/blog">متلازمة القولون المتهيج</Link></span>
+                                    <span className="m-1"><Link to="/blog">أسلوب الحياة</Link></span>
+                                    <span className="m-1"><Link to="/blog">بى سى أر</Link></span>
+                                    <span className="m-1"><Link to="/blog">أعراض</Link></span>
+                                    <span className="m-1"><Link to="/blog">لياقة بدنية</Link></span>
                                 </div>
                             </div>
                         </div>
@@ -146,17 +146,17 @@ export default function BlogAr() {
                                         <div className="accordion-body">
                                             <div className="tags col-12">
                                                 <div className="t text-uppercase">
-                                                    <span className="m-1"><Link to="/yodawy/blog">مولد المضاد</Link></span>
-                                                    <span className="m-1"><Link to="/yodawy/blog">سعرات حراريه</Link></span>
-                                                    <span className="m-1"><Link to="/yodawy/blog">فيروس كورونا</Link></span>
-                                                    <span className="m-1"><Link to="/yodawy/blog">كوفيد-19</Link></span>
-                                                    <span className="m-1"><Link to="/yodawy/blog">نصيحة صحية</Link></span>
-                                                    <span className="m-1"><Link to="/yodawy/blog">حياة صحية</Link></span>
-                                                    <span className="m-1"><Link to="/yodawy/blog">متلازمة القولون المتهيج</Link></span>
-                                                    <span className="m-1"><Link to="/yodawy/blog">أسلوب الحياة</Link></span>
-                                                    <span className="m-1"><Link to="/yodawy/blog">بى سى أر</Link></span>
-                                                    <span className="m-1"><Link to="/yodawy/blog">أعراض</Link></span>
-                                                    <span className="m-1"><Link to="/yodawy/blog">لياقة بدنية</Link></span>
+                                                    <span className="m-1"><Link to="/blog">مولد المضاد</Link></span>
+                                                    <span className="m-1"><Link to="/blog">سعرات حراريه</Link></span>
+                                                    <span className="m-1"><Link to="/blog">فيروس كورونا</Link></span>
+                                                    <span className="m-1"><Link to="/blog">كوفيد-19</Link></span>
+                                                    <span className="m-1"><Link to="/blog">نصيحة صحية</Link></span>
+                                                    <span className="m-1"><Link to="/blog">حياة صحية</Link></span>
+                                                    <span className="m-1"><Link to="/blog">متلازمة القولون المتهيج</Link></span>
+                                                    <span className="m-1"><Link to="/blog">أسلوب الحياة</Link></span>
+                                                    <span className="m-1"><Link to="/blog">بى سى أر</Link></span>
+                                                    <span className="m-1"><Link to="/blog">أعراض</Link></span>
+                                                    <span className="m-1"><Link to="/blog">لياقة بدنية</Link></span>
                                                 </div>
                                             </div>
                                         </div>
